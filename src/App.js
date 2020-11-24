@@ -2,8 +2,8 @@ import './App.css';
 // import SurveyOne from "./components/SurveyOne";
 // import SurveyTwo from "./components/SurveyTwo";
 import Title from './Title';
-// import { Router, Route, Switch } from "react-router-dom";
-// import history from "./utils/history";
+import { Router, Route, Switch } from "react-router-dom";
+import history from "./utils/history";
 
 
 function App() {
