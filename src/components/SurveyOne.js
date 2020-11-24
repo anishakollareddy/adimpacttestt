@@ -244,13 +244,15 @@ function SurveyOne  () {
 
   // Survey.StylesManager.applyTheme("modern");
 
-   function sendDataToServer(survey) {
-    //send Ajax request to your web server.
-      //alert("The results are:" + JSON.stringify(survey.data));
-    }
+  //  function sendDataToServer(survey) {
+  //   //send Ajax request to your web server.
+  //     //alert("The results are:" + JSON.stringify(survey.data));
+  //   }
     return (
       <div>
-    <Survey.Survey json={ surveyJSON } onComplete={ sendDataToServer } />
+        <header>
+           <h1>RIP MEEE</h1>
+        </header> 
       </div>
     );
   //  const {user} = useAuth0();
@@ -270,6 +272,8 @@ function SurveyOne  () {
   //     console.log(err)
   //   })
   //<Survey.Survey json={ surveyJSON } onComplete={ sendDataToServer } />
+  //     <Survey.Survey json={ surveyJSON } onComplete={ sendDataToServer } />
+
 };
 
 
