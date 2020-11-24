@@ -9,7 +9,7 @@ import Title from './Title';
 function App() {
   return (
     <div className="App">
-    {/* Don't forget to include the history module */}
+    {/* Don't forget to include the hisstory module */}
     <Title />
     <SurveyOne />
   </div>
