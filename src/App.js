@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import surveyone from "./components/surveyone";
-import surveytwo from "./components/surveytwo";
+import SurveyOne from "./components/SurveyOne";
+import SurveyTwo from "./components/SurveyTwo";
 import Title from './Title';
 import { Router, Route, Switch } from "react-router-dom";
 import history from "./utils/history";
@@ -15,8 +15,8 @@ function App() {
 
     <Router history={history}>
       <Switch>
-        <Route path="/surveyone" component={surveyone} />
-        <Route path="/surveytwo" component={surveyone} />
+        <Route path="/surveyone" component={SurveyOne} />
+        <Route path="/surveytwo" component={SurveyTwo} />
       </Switch>
     </Router>
   </div>

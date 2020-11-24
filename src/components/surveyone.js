@@ -5,7 +5,7 @@ import "survey-react/survey.css";
 import axios from "axios";
 import {useAuth0} from "../react-auth0-spa";
 
-const surveyone = () => {
+const SurveyOne = () => {
   var surveyJSON = {
     "pages": [
      {
@@ -268,4 +268,4 @@ const surveyone = () => {
   );
 };
 
-export default surveyone;
+export default SurveyOne;
