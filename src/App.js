@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import SurveyOne from "./components/SurveyOne";
 import SurveyTwo from "./components/SurveyTwo";
