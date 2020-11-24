@@ -13,7 +13,6 @@ function App() {
     <Title />
     <Router history={history}>
       <Switch>
-        <Route path="/surveyone" component={SurveyOne} />
       </Switch>
     </Router>
 
