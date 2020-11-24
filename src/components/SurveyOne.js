@@ -244,14 +244,14 @@ function SurveyOne  () {
 
   // Survey.StylesManager.applyTheme("modern");
 
-  //  function sendDataToServer(survey) {
+   function sendDataToServer(survey) {
   //   //send Ajax request to your web server.
       alert("The results are:" + JSON.stringify(surveyJSON));
-  //   }
+    }
+    
     return (
       <div>
-          <Survey.Survey json={ surveyJSON }/>
-
+          <Survey.Survey json={ surveyJSON } onComplete={ sendDataToServer} />
       </div>
     );
   //  const {user} = useAuth0();
