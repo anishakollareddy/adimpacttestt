@@ -1,6 +1,6 @@
 import React from "react";
 import * as Survey from "survey-react";
-//import "survey-react/survey.css";
+// import "survey-react/survey.css";
 // import axios from "axios";
 // import {useAuth0} from "../react-auth0-spa";
 
@@ -245,12 +245,13 @@ function SurveyOne  () {
   // Survey.StylesManager.applyTheme("modern");
 
   //  function sendDataToServer(survey) {
-  // //   //send Ajax request to your web server.
-  //     alert("The results are:" + JSON.stringify(surveyJSON));
+  //   //send Ajax request to your web server.
+      alert("The results are:" + JSON.stringify(surveyJSON));
   //   }
     return (
       <div>
-          <Survey.Survey json={ surveyJSON } />
+          <Survey.Survey json={ surveyJSON }/>
+
       </div>
     );
   //  const {user} = useAuth0();
