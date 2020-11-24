@@ -1,5 +1,5 @@
 import './App.css';
-import SurveyOne from "./components/SurveyOne";
+// import SurveyOne from "./components/SurveyOne";
 // import SurveyTwo from "./components/SurveyTwo";
 import Title from './Title';
 import { Router, Route, Switch } from "react-router-dom";
