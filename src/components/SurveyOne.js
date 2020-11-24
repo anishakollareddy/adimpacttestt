@@ -1,6 +1,6 @@
 import React from "react";
 import * as Survey from "survey-react";
-import "survey-react/survey.css";
+//import "survey-react/survey.css";
 // import axios from "axios";
 // import {useAuth0} from "../react-auth0-spa";
 
