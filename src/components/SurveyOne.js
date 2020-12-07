@@ -1,6 +1,6 @@
 import React from "react";
 import * as Survey from "survey-react";
-import "survey-react/survey.css";
+//import "survey-react/survey.css";
 // import axios from "axios";
 // import {useAuth0} from "../react-auth0-spa";
 
@@ -271,7 +271,7 @@ const SurveyOne = () => {
    function sendDataToServer(survey) {
   //   //send Ajax request to your web server.          //<Survey.Survey json={ surveyJSON } onComplete={ sendDataToServer} />
 
-      alert("The results are:" + JSON.stringify(surveyJSON));
+      //alert("The results are:" + JSON.stringify(surveyJSON));
    }
 
     return (
