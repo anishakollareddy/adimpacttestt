@@ -266,14 +266,17 @@ const SurveyOne = () => {
 
   // Survey.StylesManager.applyTheme("modern");
 
-   function sendDataToServer(survey) {
-  //   //send Ajax request to your web server.
+   //function sendDataToServer(survey) {
+  //   //send Ajax request to your web server.          //<Survey.Survey json={ surveyJSON } onComplete={ sendDataToServer} />
+
       alert("The results are:" + JSON.stringify(surveyJSON));
-    }
+  //  }
 
     return (
       <div>
-          <Survey.Survey json={ surveyJSON } onComplete={ sendDataToServer} />
+        <header>
+           <h1>RIP MEEE</h1>
+        </header> 
       </div>
     );
   //  const {user} = useAuth0();
