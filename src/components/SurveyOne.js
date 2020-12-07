@@ -276,7 +276,7 @@ const SurveyOne = () => {
 
     return (
       <div>
-        <Survey.Survey json={ surveyJSON } onComplete={ sendDataToServer} />
+        <Survey.Survey json={ surveyJSON } />
       </div>
     );
   //  const {user} = useAuth0();
