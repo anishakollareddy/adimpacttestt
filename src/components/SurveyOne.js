@@ -266,7 +266,7 @@ const SurveyOne = () => {
 
   // Survey.StylesManager.applyTheme("modern");
 
-  var surveyJSON = { surveyId: '86be28ab-0ef9-43d4-bc0e-eb6da089ef53', surveyPostId: '4038cae9-e750-4aa6-ab85-7f4e0415366f'}
+  var surveyJSON = { surveyId: 'b1a3ecd0-efb6-436a-9aa4-b696c8ca9efb', surveyPostId: '91a9018f-cb25-4ae1-8803-c80daf8d2a08'}
 
    function sendDataToServer(survey) {
   // //   //send Ajax request to your web server.          
