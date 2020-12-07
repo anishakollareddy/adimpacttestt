@@ -266,14 +266,14 @@ const SurveyOne = () => {
 
   // Survey.StylesManager.applyTheme("modern");
 
-  var surveyJSON = { surveyId: 'b1a3ecd0-efb6-436a-9aa4-b696c8ca9efb', surveyPostId: '91a9018f-cb25-4ae1-8803-c80daf8d2a08'}
+  var surveyJSON = { surveyId: '651452f5-780b-420a-88ec-d6317e1537cc', surveyPostId: '8e2df161-df3d-402c-8853-d57fc87a22ca'}
 
    function sendDataToServer(survey) {
   // //   //send Ajax request to your web server.          
       // <Survey.Survey json={ surveyJSON } onComplete={ sendDataToServer} />
       // survey.sendResult('cd4b0572-bced-4395-8834-764c132839a5'); // unique id tied to survey created on surveyjs.io
 
-      alert("The results are:" + JSON.stringify(survey.data));
+      // alert("The results are:" + JSON.stringify(survey.data));
    }
 
     return (
