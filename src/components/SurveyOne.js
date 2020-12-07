@@ -271,7 +271,7 @@ const SurveyOne = () => {
    function sendDataToServer(survey) {
   // //   //send Ajax request to your web server.          
       // <Survey.Survey json={ surveyJSON } onComplete={ sendDataToServer} />
-      survey.sendResult('cd4b0572-bced-4395-8834-764c132839a5'); // unique id tied to survey created on surveyjs.io
+      //survey.sendResult('cd4b0572-bced-4395-8834-764c132839a5'); // unique id tied to survey created on surveyjs.io
 
       alert("The results are:" + JSON.stringify(survey.data));
    }
