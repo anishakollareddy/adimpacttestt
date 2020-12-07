@@ -266,7 +266,7 @@ const SurveyOne = () => {
 
   // Survey.StylesManager.applyTheme("modern");
 
-  var surveyJSON = { surveyId: 'cde59f7b-13cf-43d2-ac21-77d7330465e6', surveyPostId: '63376b27-fb10-486c-8434-f98223fcda09'}
+  // var surveyJSON = { surveyId: 'cde59f7b-13cf-43d2-ac21-77d7330465e6', surveyPostId: '63376b27-fb10-486c-8434-f98223fcda09'}
 
    function sendDataToServer(survey) {
   //   //send Ajax request to your web server.          //<Survey.Survey json={ surveyJSON } onComplete={ sendDataToServer} />
@@ -279,7 +279,6 @@ const SurveyOne = () => {
         <header>
            <h1>RIP MEEE</h1>
         </header> 
-        <Survey.Survey json={ surveyJSON } onComplete={ sendDataToServer} />
       </div>
     );
   //  const {user} = useAuth0();
