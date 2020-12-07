@@ -276,7 +276,6 @@ const SurveyOne = () => {
 
     return (
       <div>
-        <Survey.Survey json={ surveyJSON } />
       </div>
     );
   //  const {user} = useAuth0();
