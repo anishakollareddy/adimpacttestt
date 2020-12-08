@@ -261,7 +261,7 @@ const SurveyOne = () => {
 //   data: [],
 // };
 
-  Survey.StylesManager.applyTheme("modern");
+  // Survey.StylesManager.applyTheme("modern");
 
   var surveyJSON = { surveyId: 'cb8ae1df-2dc7-45c3-b71e-ace23fd82418', surveyPostId: '80e694bc-cb38-4833-8e2f-7ff2d7b61f4b'}
 
