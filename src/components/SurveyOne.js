@@ -1,7 +1,7 @@
 import React from "react";
 import * as Survey from "survey-react";
 import "survey-react/survey.css";
-import axios from "axios";
+// import axios from "axios";
 // import {useAuth0} from "../react-auth0-spa";
 
 const SurveyOne = () => {
@@ -257,10 +257,25 @@ const SurveyOne = () => {
 //    }
 //   ]
 //  }
+// state = {
+//   data: [],
+// };
 
   Survey.StylesManager.applyTheme("modern");
 
-  var surveyJSON = { surveyId: '9c935235-1aee-48de-8259-f11a4a89ca1f', surveyPostId: '63c03278-c598-406e-b193-8151abd344d9'}
+  var surveyJSON = { surveyId: 'cb8ae1df-2dc7-45c3-b71e-ace23fd82418', surveyPostId: '80e694bc-cb38-4833-8e2f-7ff2d7b61f4b'}
+
+  // function putDataToDB (message) {
+  //   alert("IT SPOSED TO SEND" + message);
+  //  //  var myObject = JSON.parse(message);
+  // //   alert("The results are:" + myObject);
+
+  //   axios.post('http://localhost:3001/api/putData', {
+  //     data: "oOWIGHOWERHG",
+  //   })
+  //         alert("IT SPOSED TO SEND" + message);
+
+  // }
 
    function sendDataToServer(survey) {
   // //   //send Ajax request to your web server.          
@@ -268,18 +283,23 @@ const SurveyOne = () => {
       // survey.sendResult('cd4b0572-bced-4395-8834-764c132839a5'); // unique id tied to survey created on surveyjs.io
 
       // alert("The results are:" + JSON.stringify(survey.data));
+      // localStorage.setItem("soefis","help")
+      // axios.post("http://localhost:5000/surveyone", {
+      //   data: survey.data,
+      //   res: "help"
+      // })
+      // .then(res => {
+      //   console.log(res)
+      // })
+      // .catch(err => {
+      //   console.log(err)
+      // })
+    //  var myObject = JSON.parse(survey.data);
+   //   alert("The results are:" + JSON.stringify(survey.data));
 
-      localStorage.setItem('userEmail', user.email)
-      axios.post("http://localhost:5000/doasurvey", {
-        data: survey.data,
-        email: user.email
-      })
-      .then(res => {
-        console.log(res)
-      })
-      .catch(err => {
-        console.log(err)
-      })
+      // putDataToDB(survey.data);
+
+      // alert("IT SPOSED TO SEND");
 
    }
 
